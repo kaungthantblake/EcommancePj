@@ -1,0 +1,54 @@
+/* Navbar container */
+.navbar {
+  background-color: #f8f9fa; /* Set the background color */
+  padding: 10px 20px; /* Add some padding */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow */
+}
+
+/* Navbar brand */
+.navbar-brand {
+  font-size: 1.5rem; /* Set the font size */
+  font-weight: bold; /* Set the font weight */
+  color: #333; /* Set the text color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Search form */
+.search-form {
+  margin-left: auto; /* Align to the right */
+  display: flex; /* Use flexbox */
+}
+
+.form-control {
+  width: 200px; /* Set the input width */
+  margin-right: 10px; /* Add some spacing between input and button */
+}
+
+.btn {
+  padding: 8px 16px; /* Add padding to the button */
+  border: 1px solid #28a745; /* Add border to the button */
+  background-color: transparent; /* Set background color to transparent */
+  color: #28a745; /* Set text color */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.btn:hover {
+  background-color: #28a745; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
+.searchBar {
+  display: flex;
+  flex-direction: row;
+}
+.img {
+  border-radius: 20px;
+  width: 100%;
+}
+.icon{
+  color: #fff;
+}
+body{
+  margin: 0;
+  height: 100vh;
+  background-color: none;
+}

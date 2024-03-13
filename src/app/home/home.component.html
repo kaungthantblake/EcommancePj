@@ -1,0 +1,29 @@
+<body>
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand">Navbar</a>
+      <form class="d-flex" role="search">
+        <div class="login_signup"></div>
+        <div class="searchBar">
+          <input class="form-control me-2" type="search" placeholder="Search" h />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </div>
+      </form>
+    </div>
+  </nav>
+  <div class="fastival">
+    <img
+      class="img"
+      src="../../assets/images/12-Marketing-Strategies-to-Boost-your-E-commerce-with-Christmas-Sales.webp"
+      alt=""
+    />
+  </div>
+  <div class="categories">
+    <div class="category">
+      <div class="icon" *ngFor="let icon of ionIcons">
+        <ion-icon name="{{ icon.icon }}"></ion-icon>
+      </div>
+    </div>
+  </div>
+  <ion-icon name="globe-outline"></ion-icon>
+</body>
